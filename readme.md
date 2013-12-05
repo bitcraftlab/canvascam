@@ -1,7 +1,7 @@
 canvascam
 =========
 
-A tiny 2D camera library for Processing.
+A tiny 2D camera library for Processing.  
 Lets you zoom and drag the canvas.
 
 ### Usage
