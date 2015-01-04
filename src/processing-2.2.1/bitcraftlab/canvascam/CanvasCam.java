@@ -88,7 +88,7 @@ public class CanvasCam /* implements MouseWheelListener */ {
     float epsilon = 0.0001f;
     
     // only adjust zoom if it is within the valid range
-    if(newZoom == app.constrain(newZoom, minzoom - epsilon , maxzoom + epsilon)) {
+    if(newZoom == PApplet.constrain(newZoom, minzoom - epsilon , maxzoom + epsilon)) {
        
       // zoom at the center
        float dx = centerX - app.width/2;
